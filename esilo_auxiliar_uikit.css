@@ -1,0 +1,10 @@
+.contenedor{
+    height: 700px;
+    width: 350px;
+    margin: 120px auto;
+    padding: 20px 20px;
+    box-shadow: 10px 10px lightblue;
+}
+ html{
+    background-image: url(123.webp);
+ }
