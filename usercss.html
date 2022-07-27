@@ -7,7 +7,7 @@
     <body>
         <section class="formulario">
             <h1>Datos del usuario</h1><br>
-            <form action="post">
+            <form action="post" id="form">
                 <label for="pais">Pais</label><br>
                 <!--Los codigos de cada pais fueron cnsultados en la web: https://wits.worldbank.org/wits/wits/WITSHELP-es/content/codes/country_codes.htm -->
                 <select name="id_pais" id="pais">
@@ -301,6 +301,8 @@
                 <input type="text" id="user" name="ccusuario"><br>
                 <label for="pswr">Contraseña</label><br>
                 <input type="password" id="pswr" name="ccpswd"><br>
+                <label for="pswr">Confirme la contraseña</label><br>
+                <input type="password" id="con_pswr" name="ccpswd"><br>
                 <label for="email">Correo electronico</label><br>
                 <input type="email" name="email" id="email"><br>
                 <label for="telefono">Telefono</label><br>
@@ -309,4 +311,5 @@
             </form>
         </section>
     </body>
+    <script src="D:\web projects\Taller 4\validacion.js"></script>
 </html> 
