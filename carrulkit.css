@@ -1,0 +1,22 @@
+html{
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+
+}
+
+.contenedor{
+  height: 1200x;
+  width: 350px;
+  margin: 120px auto;
+  padding: 20px 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px lightblue;
+}
+
+h3{
+    color: grey;
+    font-size: 20px;
+}
+
